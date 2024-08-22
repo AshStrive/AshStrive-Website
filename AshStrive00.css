@@ -1,0 +1,226 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:500');
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen&display=swap');
+*
+{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    /* background-color: #000; */
+    
+    
+}
+ li,a,button 
+ {
+  font-family:"Montserrat", sans-serif ;
+  font-weight: 500;
+  font-size: 16px;
+  color: #edf0f1;
+  text-decoration: none;
+ }
+ header
+ {
+   background: linear-gradient(#0088a9 -40%, black);
+
+   display: flex;
+   justify-content:space-between;
+   align-items: center;
+   padding: 20px 20px;
+
+ }
+ h1{
+    font-size: 40px;
+    color: #edf0f1;
+    cursor: pointer;
+    margin: 10px 200px 10px 20px;
+
+    
+ }
+
+ .nav__links li
+ {
+   display: inline-block;                 /* rather than going up and down they will go side by side*/
+   padding: 0px 20px;
+   
+   
+   
+ }
+
+ .nav__links li a
+ {
+    transition: all 0.3s ease 0s;
+ }
+
+ .nav__links li a:hover
+ {
+   color: #0088a9;
+ }
+
+ button
+ {
+    padding: 9px 25px;
+    background-color: rgb(0, 136, 169);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+    
+
+ }
+
+ button:hover
+ {
+    background-color: #016179;
+ }
+ .lower1{
+   padding-top: 5px;
+   padding-bottom: 5px;
+   text-align: center;
+   color: #000;
+   background-color: #edf0f1;
+ }
+
+.logos1
+{
+   display: block;
+   margin-left: 0%;
+   width: 5%;
+}
+
+.nav_login
+{
+   margin: 20px 10px 20px 300px
+   
+}
+.nav_login 
+{
+       transition: all 0.3s ease 0s;
+
+}
+
+.nav_login:hover
+{
+   color:#0088a9;
+}
+
+.lower2herosection
+{
+   background-color:#000
+}
+
+.lower2herosection
+{
+   display: flex;
+   height: 665px;
+   flex-wrap: wrap;
+   position: relative;
+   
+}
+
+.box
+{
+   border: 10px solid white;
+   margin: 10px;
+   height: 250px;
+   width: 250px;
+   color: white;
+   border-radius: 30px;
+   
+   
+}
+.box-1
+{
+   margin-left: 100px;
+   margin-top: 80px;
+}
+.box-2
+{
+   align-self: center;
+   margin-top: 100px;
+}
+
+body
+{
+   /* background: radial-gradient(circle at top left , cyan, black 25%); */
+   /* position: absolute;
+   top: 0;
+   bottom: 0;
+   width: 100%;
+   height: 100%; */
+   background-color: #000;
+}
+
+.intro
+{
+   display: flex;
+   align-items: center;
+   
+   color:white ;
+   width: 1028px;
+   position: relative;
+   animation-name: introtext;
+   animation-duration: 5s;
+   animation-iteration-count: infinite;
+   animation-timing-function: ease-in-out;
+   text-shadow: 2px 2px cyan;
+   font-family: 'Silkscreen', sans-serif;
+   font-size: 45px;
+}
+@keyframes introtext {
+   0%{
+      transform: translateY(0);
+
+   }
+   50%{
+      transform: translateY(40px);
+   }
+   100%
+   {
+      transform: translateY(0);
+   }
+}
+
+.lower3herosection
+{
+   color: white;
+   /* background-color: #848482; */
+   background: linear-gradient(black, #0088a9);
+   height: 800px;
+   font-size: 50px;
+   
+}
+.lower4herosection
+{
+   color: white;
+   /* background-color: #000; */
+   background: linear-gradient(#0088a9, black);
+
+   height: 800px;
+   font-size: 50px;
+   
+}
+
+.lower5herosection
+{
+   color: white;
+   background-color: #000;
+   height: 800px;
+   font-size: 50px;
+   background: linear-gradient(black, #0088a9);
+   
+}
+.lower6herosection
+{
+   color: white;
+   background-color: #000;
+   height: 800px;
+   font-size: 50px;
+   background: linear-gradient(#0088a9, black);
+   
+}
+footer
+{
+   background-color: white;
+   background: linear-gradient(black, #0088a9);
+
+   height: 400px;
+}
